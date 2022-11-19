@@ -1,0 +1,29 @@
+{
+    "stockProductos": [
+
+        {
+            "id": 1, 
+            "nombre": "Aromatizadores", 
+            "precio": 700, 
+            "img": "./images/aromatizador.png"
+        },
+        {
+            "id": 2, 
+            "nombre": "Jabon Liquido", 
+            "precio": 500, 
+            "img": "./images/jabon.png"
+        },
+        {
+            "id": 3, 
+            "nombre": "Perfuminas", 
+            "precio": 650, 
+            "img": "./images/spray.png"
+        },
+        {
+            "id": 4, 
+            "nombre": "Esencias Aromaticas", 
+            "precio": 350, 
+            "img": "./images/esencia.png"
+        }
+    ]
+}
