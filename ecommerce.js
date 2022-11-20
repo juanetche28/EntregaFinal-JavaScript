@@ -172,10 +172,20 @@ function cantidadCambiada(event) {
     const totalCarrito = document.querySelector('.totalCarrito')
     const total = Number(totalCarrito.textContent.replace('$', ''))
     if (total === 0){
-        alert("No hay productos Agregados para comprar");
+        Swal.fire({
+            title: '!!',
+            text: 'No hay productos seleccionados para comprar',
+            icon: 'error',
+            confirmButtonText: 'IR A COMPRAR'
+        })
     }
     else{
-        alert("Gracias por tu Compra! Gastaste: $"+total);
+        Swal.fire({
+            title: '!!',
+            text: 'Gracias por tu compra! Gastaste: $'+total,
+            icon: 'success',
+            confirmButtonText: '¡Gracias totales!'
+        })
     }
 
 
